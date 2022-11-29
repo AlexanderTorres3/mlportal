@@ -46,12 +46,12 @@
             $resource_type = $row["type"];
             $resource_keywords = $row["keywords"];
             $resource_links = $row["link"];
-            $resource_user = $row["userID"];
+            $resource_user = $row["instructor_id"];
         }
     }
     ?>
-    <div class="add-resource-box" style="display: grid;">
-        <h1>Modify a Resource</h1>
+    <div class="add-resource-box" style="display: grid; margin: 0 auto;">
+        <h1>Delete Resource</h1>
         <label for="topic">Topic</label>
         <div class="input"><?php echo $resource_topic; ?></div><br><br>
 

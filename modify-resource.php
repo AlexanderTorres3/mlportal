@@ -46,11 +46,11 @@
             $resource_type = $row["type"];
             $resource_keywords = $row["keywords"];
             $resource_links = $row["link"];
-            $resource_user = $row["userID"];
+            $resource_user = $row["instructor_id"];
         }
     }
     ?>
-    <div class="add-resource-box">
+    <div class="add-resource-box" style="margin: 0 auto;">
         <form action="modify-query.php?id=<?php echo $resource_id;?>" method="POST">
 
             <h1>Modify a Resource</h1>
